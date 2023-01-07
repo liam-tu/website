@@ -1,0 +1,127 @@
+html {
+	height: 100%;
+	margin: 0px:
+	padding: 0px;
+}
+
+body {
+	font-family: 'arial';
+	background-color: #F7F7F7;
+	color: #6C6C6C;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	/*text-transform: uppercase;*/
+}
+
+footer {
+	font-size: 8px;
+	bottom: 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: bold;
+}
+
+#footer-right {
+	font-size: 8px;
+}
+
+
+#mainbar {
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom-style: solid;
+	border-bottom-width: 0.15rem;
+	/*border-bottom-color: #82caaf;*/
+	border-bottom-color: #000000;
+
+}
+
+#homebar {
+	margin-top: 25%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 25%;	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+#home {
+	font-size: 2rem;
+	color: #000000;
+	font-weight: bold;
+}
+
+
+#menu {
+	font-size: 18px;
+}
+
+#active {
+	color: #000000;
+}
+
+
+#maintext {
+	font-size: 14px;
+	text-align: left;
+}
+
+.aboutpage {
+	margin-left: 1%;
+	margin-right: 1%;
+	flex: 1;
+}
+
+.servicespage {
+	margin-left: 1%;
+	margin-right: 1%;
+	flex: 1;
+}
+
+.teampage {
+	margin-left: 1%;
+	margin-right: 1%;
+	flex: 1;
+}
+
+.LI-profile-badge {
+	float: right;
+}
+
+
+div#googlemap{
+ 	text-align: center;
+ 	margin-top: 2%;
+ 	background-color: #ffbc97;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	width: 610px;
+ 	height: 460px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+iframe#googlemap {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	color: #000000;
+}
+
+
